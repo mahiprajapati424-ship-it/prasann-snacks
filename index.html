@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#06472f"><meta name="description" content="PRASANN (प्रसन्न) — Pure Taste, Pure Happiness. Homemade snacks from Karawal Nagar, Delhi.">
+  <title>PRASANN (प्रसन्न) | Pure Taste ♥ Pure Happiness</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="registration" class="screen registration-screen">
+    <div class="registration-card">
+      <img class="registration-logo" src="assets/prasann-logo.png" alt="PRASANN (प्रसन्न) original logo">
+      <p class="eyebrow">PURE TASTE ♥ PURE HAPPINESS</p>
+      <h1 data-hi="PRASANN परिवार में आपका स्वागत है" data-en="Welcome to the PRASANN family">PRASANN परिवार में आपका स्वागत है</h1>
+      <p class="muted" data-hi="आगे बढ़ने के लिए अपना मोबाइल नंबर डालें।" data-en="Enter your mobile number to continue.">आगे बढ़ने के लिए अपना मोबाइल नंबर डालें।</p>
+      <form id="registrationForm">
+        <label for="mobile" data-hi="मोबाइल नंबर" data-en="Mobile number">मोबाइल नंबर</label>
+        <input id="mobile" name="mobile" type="tel" inputmode="numeric" autocomplete="tel" maxlength="10" pattern="[6-9][0-9]{9}" placeholder="10 अंकों का मोबाइल नंबर" required>
+        <label class="interest"><input id="interest" type="checkbox"><span data-hi="मुझे PRASANN Snacks में रुचि है ♥" data-en="I'm interested in PRASANN Snacks ♥">मुझे PRASANN Snacks में रुचि है ♥</span></label>
+        <p class="privacy" data-hi="आपका नंबर रजिस्ट्रेशन और PRASANN से संपर्क के लिए इस्तेमाल होगा। इस डेमो में नंबर सिर्फ इसी ब्राउज़र में सेव होता है; अभी कोई सुरक्षित ऑनलाइन डेटाबेस नहीं जुड़ा है।" data-en="Your number is for registration and PRASANN contact. In this demo, it is saved only in this browser; no secure online database is connected yet.">आपका नंबर रजिस्ट्रेशन और PRASANN से संपर्क के लिए इस्तेमाल होगा। इस डेमो में नंबर सिर्फ इसी ब्राउज़र में सेव होता है; अभी कोई सुरक्षित ऑनलाइन डेटाबेस नहीं जुड़ा है।</p>
+        <button class="button primary full" type="submit" data-hi="रजिस्टर करें" data-en="Register">रजिस्टर करें</button>
+      </form>
+    </div>
+  </div>
+  <div id="welcome" class="screen welcome-screen hidden">
+    <img src="assets/prasann-logo.png" alt="PRASANN original logo" class="welcome-logo">
+    <h1 data-hi="PRASANN परिवार में आपका स्वागत है! ♥" data-en="Welcome to the PRASANN family! ♥">PRASANN परिवार में आपका स्वागत है! ♥</h1>
+    <p data-hi="आपके सफ़र का साथी।" data-en="Your companion for every journey.">आपके सफ़र का साथी।</p>
+    <button id="enterSite" class="button primary" data-hi="वेबसाइट देखें" data-en="Explore website">वेबसाइट देखें</button>
+  </div>
+  <main id="site" class="hidden">
+    <header class="topbar">
+      <a href="#home" class="brand"><img src="assets/prasann-logo.png" alt="PRASANN logo"><span>PRASANN <small>(प्रसन्न)</small></span></a>
+      <div class="top-actions"><button id="languageToggle" class="button light small" type="button">English</button><a class="button primary small" href="#products" data-hi="स्नैक्स देखें" data-en="Shop snacks">स्नैक्स देखें</a></div>
+    </header>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow" data-hi="घर जैसा स्वाद • प्यार से बनाया" data-en="Homestyle taste • Made with care">घर जैसा स्वाद • प्यार से बनाया</span>
+        <h1 data-hi="हर सफ़र का साथी!" data-en="Your companion for every journey!">हर सफ़र का साथी!</h1>
+        <p data-hi="PRASANN (प्रसन्न) — Pure Taste ♥ Pure Happiness. अपने सफ़र और हर छोटी खुशी के लिए कुरकुरे स्नैक्स।" data-en="PRASANN (प्रसन्न) — Pure Taste ♥ Pure Happiness. Crispy snacks for your journeys and everyday happy moments.">PRASANN (प्रसन्न) — Pure Taste ♥ Pure Happiness. अपने सफ़र और हर छोटी खुशी के लिए कुरकुरे स्नैक्स।</p>
+        <div class="hero-buttons"><a href="#products" class="button primary" data-hi="हमारे स्नैक्स देखें" data-en="Explore our snacks">हमारे स्नैक्स देखें</a><a class="button outline" href="https://wa.me/918448047203?text=Namaste%20PRASANN!%20Mujhe%20snacks%20ke%20baare%20mein%20jaankari%20chahiye." target="_blank" rel="noopener" data-hi="WhatsApp पर संपर्क करें" data-en="Contact on WhatsApp">WhatsApp पर संपर्क करें</a></div>
+        <div class="location">⌖ <span data-hi="Karawal Nagar, Delhi" data-en="Karawal Nagar, Delhi">Karawal Nagar, Delhi</span></div>
+      </div>
+      <div class="hero-art"><div class="sun-disc"></div><img src="assets/kaju-500g-packet.png" alt="PRASANN Kaju Shape Snacks 500g packet"></div>
+    </section>
+    <section class="promise strip"><div><strong>♥</strong><span data-hi="Pure Taste" data-en="Pure Taste">Pure Taste</span></div><div><strong>✦</strong><span data-hi="प्यार से तैयार" data-en="Made with care">प्यार से तैयार</span></div><div><strong>☘</strong><span data-hi="सफ़र का साथी" data-en="Travel-friendly snacks">सफ़र का साथी</span></div></section>
+    <section id="products" class="products-section">
+      <div class="section-heading"><span class="eyebrow" data-hi="PRASANN मेन्यू" data-en="THE PRASANN MENU">PRASANN मेन्यू</span><h2 data-hi="अपना पसंदीदा स्नैक चुनें" data-en="Find your favourite snack">अपना पसंदीदा स्नैक चुनें</h2><p data-hi="पैक साइज़ और कीमत चुनें। बाकी स्नैक्स की कीमत के लिए WhatsApp पर पूछें।" data-en="Choose a pack size. Message us on WhatsApp for prices of other snacks.">पैक साइज़ और कीमत चुनें। बाकी स्नैक्स की कीमत के लिए WhatsApp पर पूछें।</p></div>
+      <nav class="category-nav" aria-label="Product categories"><a href="#kaju">Kaju Shape</a><a href="#mathri">Mathri</a><a href="#namak">Namak Paare</a><a href="#mixes">Mixes</a></nav>
+      <div class="product-grid">
+        <article class="product-card featured" id="kaju"><div class="product-image"><span class="tag" data-hi="लोकप्रिय" data-en="Popular">लोकप्रिय</span><img src="assets/kaju-500g-packet.png" alt="PRASANN Kaju Shape Snacks packet"></div><div class="product-info"><p class="product-kicker">PRASANN SNACKS</p><h3>Kaju Shape Snacks</h3><p class="product-desc" data-hi="मैदा से बने काजू के आकार के कुरकुरे स्नैक्स — असली काजू नहीं।" data-en="Crispy maida-based snacks shaped like kaju — not actual cashews.">मैदा से बने काजू के आकार के कुरकुरे स्नैक्स — असली काजू नहीं।</p><label for="kajuSize" data-hi="पैक साइज़ चुनें" data-en="Choose pack size">पैक साइज़ चुनें</label><select id="kajuSize"><option value="150">150g — ₹60</option><option value="300">300g — ₹110</option><option value="500" selected>500g — ₹180</option></select><div class="price-line"><strong id="kajuPrice">₹180</strong><span data-hi="प्रति पैक" data-en="per pack">प्रति पैक</span></div><button class="button primary full order-button" data-product="Kaju Shape Snacks" data-hi="WhatsApp पर ऑर्डर करें" data-en="Order on WhatsApp">WhatsApp पर ऑर्डर करें</button></div></article>
+        <article class="product-card" id="mathri"><div class="placeholder-art orange-art"><span>PRASANN</span><b>Mathri</b><small>CRUNCHY • HOMEMADE</small></div><div class="product-info"><p class="product-kicker">CRISPY FAVOURITE</p><h3>Mathri</h3><p class="product-desc" data-hi="सिंपल, स्पाइसी और मिक्स मैथरी।" data-en="Simple, spicy and mixed mathri.">सिंपल, स्पाइसी और मिक्स मैथरी।</p><p class="ask-price" data-hi="कीमत के लिए WhatsApp करें" data-en="Message us for price">कीमत के लिए WhatsApp करें</p><button class="button primary full order-button" data-product="Mathri (Simple / Spicy / Mix)" data-hi="WhatsApp पर पूछें" data-en="Ask on WhatsApp">WhatsApp पर पूछें</button></div></article>
+        <article class="product-card" id="namak"><div class="placeholder-art cream-art"><span>PRASANN</span><b>Namak Paare</b><small>MADE WITH CARE</small></div><div class="product-info"><p class="product-kicker">TEA-TIME SNACK</p><h3>Namak Paare</h3><p class="product-desc" data-hi="सिंपल, स्पाइसी और मिक्स नमक पारे।" data-en="Simple, spicy and mixed namak paare.">सिंपल, स्पाइसी और मिक्स नमक पारे।</p><p class="ask-price" data-hi="कीमत के लिए WhatsApp करें" data-en="Message us for price">कीमत के लिए WhatsApp करें</p><button class="button primary full order-button" data-product="Namak Paare (Simple / Spicy / Mix)" data-hi="WhatsApp पर पूछें" data-en="Ask on WhatsApp">WhatsApp पर पूछें</button></div></article>
+        <article class="product-card" id="mixes"><div class="placeholder-art green-art"><span>PRASANN</span><b>Snack Mixes</b><small>SHARE THE HAPPINESS</small></div><div class="product-info"><p class="product-kicker">A LITTLE OF EVERYTHING</p><h3>Mixes</h3><p class="product-desc" data-hi="स्पाइसी + स्वीट काजू मिक्स और All-in-One Mix।" data-en="Spicy + sweet kaju mix and All-in-One Mix.">स्पाइसी + स्वीट काजू मिक्स और All-in-One Mix।</p><p class="ask-price" data-hi="कीमत के लिए WhatsApp करें" data-en="Message us for price">कीमत के लिए WhatsApp करें</p><button class="button primary full order-button" data-product="Snack Mixes (Spicy + Sweet Kaju / All-in-One)" data-hi="WhatsApp पर पूछें" data-en="Ask on WhatsApp">WhatsApp पर पूछें</button></div></article>
+      </div>
+      <p class="delivery-note">🚚 <span data-hi="डिलीवरी की जानकारी और उपलब्धता के लिए WhatsApp पर संपर्क करें।" data-en="Contact us on WhatsApp for delivery details and availability.">डिलीवरी की जानकारी और उपलब्धता के लिए WhatsApp पर संपर्क करें।</span></p>
+    </section>
+    <section class="about-band"><img src="assets/prasann-logo.png" alt="PRASANN original logo"><div><span class="eyebrow" data-hi="हमारी पहचान" data-en="OUR PROMISE">हमारी पहचान</span><h2 data-hi="Pure Taste ♥ Pure Happiness" data-en="Pure Taste ♥ Pure Happiness">Pure Taste ♥ Pure Happiness</h2><p data-hi="PRASANN (प्रसन्न) — आपके सफ़र का साथी।" data-en="PRASANN (प्रसन्न) — your companion for every journey.">PRASANN (प्रसन्न) — आपके सफ़र का साथी।</p></div></section>
+    <footer><div class="footer-brand">PRASANN <span>(प्रसन्न)</span></div><p>Pure Taste ♥ Pure Happiness</p><p>Karawal Nagar, Delhi · <a href="https://wa.me/918448047203" target="_blank" rel="noopener">WhatsApp: 8448047203</a></p><small>© <span id="year"></span> PRASANN. <span data-hi="सभी अधिकार सुरक्षित।" data-en="All rights reserved.">सभी अधिकार सुरक्षित।</span></small></footer>
+  </main>
+  <script src="script.js"></script>
+</body></html>
